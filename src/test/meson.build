@@ -36,6 +36,7 @@ gnoteunittests = executable(
   dependencies: [ dependencies, unit_test_pp, threads_support ],
   include_directories: [root_include_dir, src_include_dir],
   link_with: libgnote_shared_lib,
+  cpp_args: '-DTEST_SOURCE_DIR="@0@"'.format(meson.current_source_dir()),
 )
 
 test('gnote_unit_tests', gnoteunittests)
