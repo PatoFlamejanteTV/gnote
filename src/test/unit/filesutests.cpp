@@ -18,6 +18,7 @@
  */
 
 #include <fstream>
+#include <iostream>
 #include <stdlib.h>
 #include <unistd.h>
 
@@ -69,7 +70,14 @@ SUITE(files)
     CHECK(sharp::file_exists(dir) == false);
     // Very unlikely to exist.
     CHECK(sharp::file_exists(__FILE__ __FILE__) == false);
-    CHECK(sharp::file_exists(__FILE__) == true);
+
+    Glib::ustring file_path;
+#ifdef TEST_SOURCE_DIR
+    file_path = Glib::build_filename(TEST_SOURCE_DIR, "unit", "filesutests.cpp");
+#else
+    file_path = __FILE__;
+#endif
+    CHECK(sharp::file_exists(file_path) == true);
   }
 
   TEST(read_all_lines)

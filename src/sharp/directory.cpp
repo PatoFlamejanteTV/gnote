@@ -32,6 +32,7 @@
 
 #include "sharp/directory.hpp"
 #include "sharp/fileinfo.hpp"
+#include "sharp/files.hpp"
 #include "sharp/string.hpp"
 
 #include "debug.hpp"
@@ -213,6 +214,18 @@ namespace sharp {
       std::vector<Glib::ustring> files = directory_get_files(dir);
       if(files.size()) {
         return false;
+      }
+    }
+    else {
+      std::vector<Glib::ustring> files = directory_get_files(dir);
+      for(const auto & file : files) {
+        sharp::file_delete(file);
+      }
+      files = directory_get_directories(dir);
+      for(const auto & d : files) {
+        if(!directory_delete(d, true)) {
+          return false;
+        }
       }
     }
 

@@ -22,14 +22,33 @@
 #include <UnitTest++/UnitTest++.h>
 
 #include "sharp/directory.hpp"
+#include "sharp/files.hpp"
 
 #include <glibmm/fileutils.h>
 
 SUITE(directory)
 {
+  Glib::ustring get_src_dir()
+  {
+#ifdef TEST_SOURCE_DIR
+    return Glib::build_filename(TEST_SOURCE_DIR, "unit");
+#else
+    return Glib::path_get_dirname(__FILE__);
+#endif
+  }
+
+  Glib::ustring get_src_file()
+  {
+#ifdef TEST_SOURCE_DIR
+    return Glib::build_filename(TEST_SOURCE_DIR, "unit", "directorytests.cpp");
+#else
+    return __FILE__;
+#endif
+  }
+
   TEST(get_directories__ustr__non_existent_directory)
   {
-    Glib::ustring dir = Glib::build_filename(Glib::path_get_dirname(__FILE__), "nonexistent");
+    Glib::ustring dir = Glib::build_filename(get_src_dir(), "nonexistent");
 
     std::vector<Glib::ustring> directories = sharp::directory_get_directories(dir);
     CHECK_EQUAL(0, directories.size());
@@ -37,7 +56,7 @@ SUITE(directory)
 
   TEST(get_directories__File__non_existent_directory)
   {
-    auto dir = Gio::File::create_for_path(Glib::build_filename(Glib::path_get_dirname(__FILE__), "nonexistent"));
+    auto dir = Gio::File::create_for_path(Glib::build_filename(get_src_dir(), "nonexistent"));
 
     std::vector<Glib::RefPtr<Gio::File>> directories = sharp::directory_get_directories(dir);
     CHECK_EQUAL(0, directories.size());
@@ -45,7 +64,7 @@ SUITE(directory)
 
   TEST(get_directories__ustr__regular_file)
   {
-    Glib::ustring dir(__FILE__);
+    Glib::ustring dir(get_src_file());
 
     std::vector<Glib::ustring> directories = sharp::directory_get_directories(dir);
     CHECK_EQUAL(0, directories.size());
@@ -53,7 +72,7 @@ SUITE(directory)
 
   TEST(get_directories__File__regular_file)
   {
-    auto dir = Gio::File::create_for_path(__FILE__);
+    auto dir = Gio::File::create_for_path(get_src_file());
 
     std::vector<Glib::RefPtr<Gio::File>> directories = sharp::directory_get_directories(dir);
     CHECK_EQUAL(0, directories.size());
@@ -61,7 +80,7 @@ SUITE(directory)
 
   TEST(get_directories__ustr__no_subdirs)
   {
-    Glib::ustring dir = Glib::build_filename(Glib::path_get_dirname(__FILE__), ".deps");
+    Glib::ustring dir = Glib::build_filename(get_src_dir(), ".deps");
 
     std::vector<Glib::ustring> directories = sharp::directory_get_directories(dir);
     CHECK_EQUAL(0, directories.size());
@@ -69,7 +88,7 @@ SUITE(directory)
 
   TEST(get_directories__File__no_subdirs)
   {
-    auto dir = Gio::File::create_for_path(Glib::build_filename(Glib::path_get_dirname(__FILE__), ".deps"));
+    auto dir = Gio::File::create_for_path(Glib::build_filename(get_src_dir(), ".deps"));
 
     std::vector<Glib::RefPtr<Gio::File>> directories = sharp::directory_get_directories(dir);
     CHECK_EQUAL(0, directories.size());
@@ -109,7 +128,7 @@ SUITE(directory)
 
   TEST(get_directories__same_return)
   {
-    auto dir = Glib::path_get_dirname(Glib::path_get_dirname(__FILE__));
+    auto dir = Glib::path_get_dirname(get_src_dir().raw());
 
     std::vector<Glib::ustring> dirss = sharp::directory_get_directories(dir);
 
@@ -125,7 +144,7 @@ SUITE(directory)
 
   TEST(directory_get_files_with_ext__ustr__non_existent_dir)
   {
-    Glib::ustring dir = Glib::build_filename(Glib::path_get_dirname(__FILE__), "nonexistent");
+    Glib::ustring dir = Glib::build_filename(get_src_dir(), "nonexistent");
 
     std::vector<Glib::ustring> files = sharp::directory_get_files_with_ext(dir, "");
     CHECK_EQUAL(0, files.size());
@@ -133,7 +152,7 @@ SUITE(directory)
 
   TEST(directory_get_files_with_ext__File__non_existent_dir)
   {
-    auto dir = Gio::File::create_for_path(Glib::build_filename(Glib::path_get_dirname(__FILE__), "nonexistent"));
+    auto dir = Gio::File::create_for_path(Glib::build_filename(get_src_dir(), "nonexistent"));
 
     std::vector<Glib::RefPtr<Gio::File>> files = sharp::directory_get_files_with_ext(dir, "");
     CHECK_EQUAL(0, files.size());
@@ -141,7 +160,7 @@ SUITE(directory)
 
   TEST(directory_get_files_with_ext__ustr__regular_file)
   {
-    Glib::ustring dir(__FILE__);
+    Glib::ustring dir(get_src_file());
 
     std::vector<Glib::ustring> files = sharp::directory_get_files_with_ext(dir, "");
     CHECK_EQUAL(0, files.size());
@@ -149,7 +168,7 @@ SUITE(directory)
 
   TEST(directory_get_files_with_ext__File__regular_file)
   {
-    auto dir = Gio::File::create_for_path(__FILE__);
+    auto dir = Gio::File::create_for_path(get_src_file());
 
     std::vector<Glib::RefPtr<Gio::File>> files = sharp::directory_get_files_with_ext(dir, "");
     CHECK_EQUAL(0, files.size());
@@ -157,7 +176,7 @@ SUITE(directory)
 
   void directory_get_files_with_ext__same_return_test(const Glib::ustring & ext)
   {
-    Glib::ustring dir = Glib::path_get_dirname(__FILE__);
+    Glib::ustring dir = get_src_dir();
 
     std::vector<Glib::ustring> filess = sharp::directory_get_files_with_ext(dir, ext);
     CHECK(0 < filess.size());
@@ -183,6 +202,24 @@ SUITE(directory)
   TEST(directory_get_files_with_ext__same_return_filterred)
   {
     directory_get_files_with_ext__same_return_test(".cpp");
+  }
+
+  TEST(directory_delete__recursive)
+  {
+    char temp_dir[] = "/tmp/gnote-test-dir-delete-XXXXXX";
+    char* res = mkdtemp(temp_dir);
+    CHECK(res != NULL);
+    Glib::ustring dir = temp_dir;
+
+    Glib::ustring file = Glib::build_filename(dir, "test.txt");
+    sharp::file_write_all_text(file, "test");
+
+    CHECK(sharp::directory_exists(dir));
+    CHECK(sharp::file_exists(file));
+
+    sharp::directory_delete(dir, true);
+
+    CHECK(!sharp::directory_exists(dir));
   }
 }
 

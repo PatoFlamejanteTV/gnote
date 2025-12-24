@@ -1,0 +1,596 @@
+
+** (process:6890): WARNING **: 15:16:28.021: Can't set the global locale to the user's preferred locale.
+   locale::facet::_S_create_c_locale name not valid
+   The environment variable LANG may be wrong.
+
+../src/test/unit/directorytests.cpp:219:1: error: Failure in directory_delete__recursive: !sharp::directory_exists(dir)
+(139758940456640) DEBUG: parse_tags - found tag system:notebook:ggoiiii
+(139758940456640) DEBUG: parse_tags - found tag system:template
+(139758940456640) DEBUG: add_tag - Tag added, queueing save
+(139758940456640) DEBUG: add_tag - Tag added, queueing save
+(139758940456640) DEBUG: add_tag - Tag added, queueing save
+(139758940456640) DEBUG: add_tag - Tag added, queueing save
+(139758940456640) DEBUG: synchronization_thread - synchronization_thread using SyncServiceAddin: test
+(139758940456640) DEBUG: sync_state_changed - SilentUI: SyncStateChanged: 3
+(139758940456640) DEBUG: sync_state_changed - SilentUI: SyncStateChanged: 4
+(139758940456640) DEBUG: synchronization_thread - 8
+(139758940456640) DEBUG: sync_state_changed - SilentUI: SyncStateChanged: 6
+(139758940456640) DEBUG: synchronization_thread - Sync: get_note_updates_since rev -1
+(139758940456640) DEBUG: get_note_updates_since - get_note_updates_since (-1) returning: 0
+(139758940456640) DEBUG: synchronization_thread - Sync: 0 updates since rev -1
+(139758940456640) DEBUG: sync_state_changed - SilentUI: SyncStateChanged: 8
+(139758945219456) DEBUG: note_synchronized - note synchronized, Title: note3, Type: 0
+(139758945219456) DEBUG: note_synchronized - note synchronized, Title: note2, Type: 0
+(139758940456640) DEBUG: synchronization_thread - Sync: Uploading 3 note updates
+(139758940456640) DEBUG: sync_state_changed - SilentUI: SyncStateChanged: 9
+(139758945219456) DEBUG: note_synchronized - note synchronized, Title: note1, Type: 0
+(139758940456640) DEBUG: upload_notes - UploadNotes: notes.Count = 3
+(139758940456640) DEBUG: sync_state_changed - SilentUI: SyncStateChanged: 11
+(139758940456640) DEBUG: sync_state_changed - SilentUI: SyncStateChanged: 12
+(139758940456640) DEBUG: synchronization_thread - Sync: New revision: 0
+(139758940456640) DEBUG: sync_state_changed - SilentUI: SyncStateChanged: 0
+(139758940456640) DEBUG: synchronization_thread - synchronization_thread using SyncServiceAddin: test
+(139758940456640) DEBUG: sync_state_changed - SilentUI: SyncStateChanged: 3
+(139758940456640) DEBUG: sync_state_changed - SilentUI: SyncStateChanged: 4
+(139758940456640) DEBUG: synchronization_thread - 8
+(139758940456640) DEBUG: sync_state_changed - SilentUI: SyncStateChanged: 6
+(139758940456640) DEBUG: synchronization_thread - Sync: get_note_updates_since rev -1
+(139758940456640) DEBUG: get_note_updates_since - get_note_updates_since (-1) returning: 0
+(139758940456640) DEBUG: synchronization_thread - Sync: 0 updates since rev -1
+(139758940456640) DEBUG: sync_state_changed - SilentUI: SyncStateChanged: 8
+(139758945219456) DEBUG: note_synchronized - note synchronized, Title: note3, Type: 0
+(139758945219456) DEBUG: note_synchronized - note synchronized, Title: note2, Type: 0
+(139758940456640) DEBUG: synchronization_thread - Sync: Uploading 3 note updates(139758945219456) DEBUG: note_synchronized - note synchronized, Title: note1, Type: 0
+
+(139758940456640) DEBUG: sync_state_changed - SilentUI: SyncStateChanged: 9
+(139758940456640) DEBUG: upload_notes - UploadNotes: notes.Count = 3
+(139758940456640) DEBUG: sync_state_changed - SilentUI: SyncStateChanged: 11
+(139758940456640) DEBUG: sync_state_changed - SilentUI: SyncStateChanged: 12
+(139758940456640) DEBUG: synchronization_thread - Sync: New revision: 0
+(139758940456640) DEBUG: sync_state_changed - SilentUI: SyncStateChanged: 0
+(139758940456640) DEBUG: synchronization_thread - synchronization_thread using SyncServiceAddin: test
+(139758940456640) DEBUG: sync_state_changed - SilentUI: SyncStateChanged: 3
+(139758940456640) DEBUG: sync_state_changed - SilentUI: SyncStateChanged: 4
+(139758940456640) DEBUG: synchronization_thread - 8
+(139758940456640) DEBUG: sync_state_changed - SilentUI: SyncStateChanged: 6
+(139758940456640) DEBUG: synchronization_thread - Sync: get_note_updates_since rev -1
+(139758940456640) DEBUG: get_note_updates_since - get_note_updates_since xpath returned 3 nodes
+(139758940456640) DEBUG: get_note_updates_since - get_note_updates_since (-1) returning: 3
+(139758940456640) DEBUG: synchronization_thread - Sync: 3 updates since rev -1
+(139758940456640) DEBUG: sync_state_changed - SilentUI: SyncStateChanged: 7
+(139758940456640) DEBUG: note_synchronized - note synchronized, Title: note3, Type: 2
+(139758940456640) DEBUG: note_synchronized - note synchronized, Title: note2, Type: 2
+(139758940456640) DEBUG: note_synchronized - note synchronized, Title: note1, Type: 2
+(139758940456640) DEBUG: get_all_note_uuids - get_all_note_uuids has 3 notes
+(139758940456640) DEBUG: sync_state_changed - SilentUI: SyncStateChanged: 8
+(139758940456640) DEBUG: synchronization_thread - Sync: Uploading 0 note updates
+(139758940456640) DEBUG: get_all_note_uuids - get_all_note_uuids has 3 notes
+(139758940456640) DEBUG: sync_state_changed - SilentUI: SyncStateChanged: 11
+(139758940456640) DEBUG: sync_state_changed - SilentUI: SyncStateChanged: 12
+(139758940456640) DEBUG: synchronization_thread - Sync: New revision: 0
+(139758940456640) DEBUG: sync_state_changed - SilentUI: SyncStateChanged: 0
+(139758940456640) DEBUG: synchronization_thread - synchronization_thread using SyncServiceAddin: test
+(139758940456640) DEBUG: sync_state_changed - SilentUI: SyncStateChanged: 3
+(139758940456640) DEBUG: sync_state_changed - SilentUI: SyncStateChanged: 4
+(139758940456640) DEBUG: synchronization_thread - 8
+(139758940456640) DEBUG: sync_state_changed - SilentUI: SyncStateChanged: 6
+(139758940456640) DEBUG: synchronization_thread - Sync: get_note_updates_since rev -1
+(139758940456640) DEBUG: get_note_updates_since - get_note_updates_since (-1) returning: 0
+(139758940456640) DEBUG: synchronization_thread - Sync: 0 updates since rev -1
+(139758940456640) DEBUG: sync_state_changed - SilentUI: SyncStateChanged: 8
+(139758945219456) DEBUG: note_synchronized - note synchronized, Title: note3, Type: 0
+(139758945219456) DEBUG: note_synchronized - note synchronized, Title: note2, Type: 0
+(139758940456640) DEBUG: synchronization_thread - Sync: Uploading 3 note updates
+(139758940456640) DEBUG: sync_state_changed - (139758945219456) DEBUG: note_synchronized - note synchronized, Title: note1, Type: 0SilentUI: SyncStateChanged: 9
+
+(139758940456640) DEBUG: upload_notes - UploadNotes: notes.Count = 3
+(139758940456640) DEBUG: sync_state_changed - SilentUI: SyncStateChanged: 11
+(139758940456640) DEBUG: sync_state_changed - SilentUI: SyncStateChanged: 12
+(139758940456640) DEBUG: synchronization_thread - Sync: New revision: 0
+(139758940456640) DEBUG: sync_state_changed - SilentUI: SyncStateChanged: 0
+(139758940456640) DEBUG: synchronization_thread - synchronization_thread using SyncServiceAddin: test
+(139758940456640) DEBUG: sync_state_changed - SilentUI: SyncStateChanged: 3
+(139758940456640) DEBUG: sync_state_changed - SilentUI: SyncStateChanged: 4
+(139758940456640) DEBUG: synchronization_thread - 8
+(139758940456640) DEBUG: sync_state_changed - SilentUI: SyncStateChanged: 6
+(139758940456640) DEBUG: synchronization_thread - Sync: get_note_updates_since rev -1
+(139758940456640) DEBUG: get_note_updates_since - get_note_updates_since xpath returned 3 nodes
+(139758940456640) DEBUG: get_note_updates_since - get_note_updates_since (-1) returning: 3
+(139758940456640) DEBUG: synchronization_thread - Sync: 3 updates since rev -1
+(139758940456640) DEBUG: sync_state_changed - SilentUI: SyncStateChanged: 7
+(139758940456640) DEBUG: note_synchronized - note synchronized, Title: note3, Type: 2
+(139758940456640) DEBUG: note_synchronized - note synchronized, Title: note2, Type: 2
+(139758940456640) DEBUG: note_synchronized - note synchronized, Title: note1, Type: 2
+(139758940456640) DEBUG: get_all_note_uuids - get_all_note_uuids has 3 notes
+(139758940456640) DEBUG: sync_state_changed - SilentUI: SyncStateChanged: 8
+(139758940456640) DEBUG: synchronization_thread - Sync: Uploading 1 note updates
+(139758940456640) DEBUG: sync_state_changed - SilentUI: SyncStateChanged: 9
+(139758945219456) DEBUG: note_synchronized - note synchronized, Title: note4, Type: 0
+(139758940456640) DEBUG: upload_notes - UploadNotes: notes.Count = 1
+(139758940456640) DEBUG: get_all_note_uuids - get_all_note_uuids has 3 notes
+(139758940456640) DEBUG: sync_state_changed - SilentUI: SyncStateChanged: 11
+(139758940456640) DEBUG: sync_state_changed - SilentUI: SyncStateChanged: 12
+(139758940456640) DEBUG: synchronization_thread - Sync: New revision: 1
+(139758940456640) DEBUG: sync_state_changed - SilentUI: SyncStateChanged: 0
+(139758940456640) DEBUG: synchronization_thread - synchronization_thread using SyncServiceAddin: test
+(139758940456640) DEBUG: sync_state_changed - SilentUI: SyncStateChanged: 3
+(139758940456640) DEBUG: sync_state_changed - SilentUI: SyncStateChanged: 4
+(139758940456640) DEBUG: synchronization_thread - 8
+(139758940456640) DEBUG: sync_state_changed - SilentUI: SyncStateChanged: 6
+(139758940456640) DEBUG: synchronization_thread - Sync: get_note_updates_since rev 0
+(139758940456640) DEBUG: get_note_updates_since - get_note_updates_since xpath returned 1 nodes
+(139758940456640) DEBUG: get_note_updates_since - get_note_updates_since (0) returning: 1
+(139758940456640) DEBUG: synchronization_thread - Sync: 1 updates since rev 0
+(139758940456640) DEBUG: sync_state_changed - SilentUI: SyncStateChanged: 7
+(139758940456640) DEBUG: note_synchronized - note synchronized, Title: note4, Type: 2
+(139758940456640) DEBUG: get_all_note_uuids - get_all_note_uuids has 4 notes
+(139758940456640) DEBUG: sync_state_changed - SilentUI: SyncStateChanged: 8
+(139758945219456) DEBUG: (139758940456640) DEBUG: synchronization_thread - Sync: Uploading 1 note updatesnote_synchronized - note synchronized, Title: note5, Type: 0
+
+(139758940456640) DEBUG: sync_state_changed - SilentUI: SyncStateChanged: 9
+(139758940456640) DEBUG: upload_notes - UploadNotes: notes.Count = 1
+(139758940456640) DEBUG: get_all_note_uuids - get_all_note_uuids has 4 notes
+(139758940456640) DEBUG: sync_state_changed - SilentUI: SyncStateChanged: 11
+(139758940456640) DEBUG: sync_state_changed - SilentUI: SyncStateChanged: 12
+(139758940456640) DEBUG: synchronization_thread - Sync: New revision: 2
+(139758940456640) DEBUG: sync_state_changed - SilentUI: SyncStateChanged: 0
+(139758940456640) DEBUG: synchronization_thread - synchronization_thread using SyncServiceAddin: test
+(139758940456640) DEBUG: sync_state_changed - SilentUI: SyncStateChanged: 3
+(139758940456640) DEBUG: sync_state_changed - SilentUI: SyncStateChanged: 4
+(139758940456640) DEBUG: synchronization_thread - 8
+(139758940456640) DEBUG: sync_state_changed - SilentUI: SyncStateChanged: 6
+(139758940456640) DEBUG: synchronization_thread - Sync: get_note_updates_since rev -1
+(139758940456640) DEBUG: get_note_updates_since - get_note_updates_since (-1) returning: 0
+(139758940456640) DEBUG: synchronization_thread - Sync: 0 updates since rev -1
+(139758940456640) DEBUG: sync_state_changed - SilentUI: SyncStateChanged: 8
+(139758945219456) DEBUG: note_synchronized - note synchronized, Title: note2, Type: 0
+(139758945219456) DEBUG: note_synchronized - note synchronized, Title: note3, Type: 0
+(139758940456640) DEBUG: synchronization_thread - Sync: Uploading 3 note updates
+(139758940456640) DEBUG: sync_state_changed - SilentUI: SyncStateChanged: 9
+(139758945219456) DEBUG: note_synchronized - note synchronized, Title: note1, Type: 0
+(139758940456640) DEBUG: upload_notes - UploadNotes: notes.Count = 3
+(139758940456640) DEBUG: sync_state_changed - SilentUI: SyncStateChanged: 11
+(139758940456640) DEBUG: sync_state_changed - SilentUI: SyncStateChanged: 12
+(139758940456640) DEBUG: synchronization_thread - Sync: New revision: 0
+(139758940456640) DEBUG: sync_state_changed - SilentUI: SyncStateChanged: 0
+(139758940456640) DEBUG: synchronization_thread - synchronization_thread using SyncServiceAddin: test
+(139758940456640) DEBUG: sync_state_changed - SilentUI: SyncStateChanged: 3
+(139758940456640) DEBUG: sync_state_changed - SilentUI: SyncStateChanged: 4
+(139758940456640) DEBUG: synchronization_thread - 8
+(139758940456640) DEBUG: sync_state_changed - SilentUI: SyncStateChanged: 6
+(139758940456640) DEBUG: synchronization_thread - Sync: get_note_updates_since rev -1
+(139758940456640) DEBUG: get_note_updates_since - get_note_updates_since xpath returned 3 nodes
+(139758940456640) DEBUG: get_note_updates_since - get_note_updates_since (-1) returning: 3
+(139758940456640) DEBUG: synchronization_thread - Sync: 3 updates since rev -1
+(139758940456640) DEBUG: sync_state_changed - SilentUI: SyncStateChanged: 7
+(139758940456640) DEBUG: note_synchronized - note synchronized, Title: note2, Type: 2
+(139758940456640) DEBUG: note_synchronized - note synchronized, Title: note3, Type: 2
+(139758940456640) DEBUG: note_synchronized - note synchronized, Title: note1, Type: 2
+(139758940456640) DEBUG: get_all_note_uuids - get_all_note_uuids has 3 notes
+(139758940456640) DEBUG: sync_state_changed - SilentUI: SyncStateChanged: 8
+(139758940456640) DEBUG: synchronization_thread - Sync: Uploading 0 note updates
+(139758940456640) DEBUG: get_all_note_uuids - get_all_note_uuids has 3 notes
+(139758940456640) DEBUG: sync_state_changed - SilentUI: SyncStateChanged: 11
+(139758940456640) DEBUG: sync_state_changed - SilentUI: SyncStateChanged: 12
+(139758940456640) DEBUG: synchronization_thread - Sync: New revision: 0
+(139758940456640) DEBUG: sync_state_changed - SilentUI: SyncStateChanged: 0
+(139758940456640) DEBUG: synchronization_thread - synchronization_thread using SyncServiceAddin: test
+(139758940456640) DEBUG: sync_state_changed - SilentUI: SyncStateChanged: 3
+(139758940456640) DEBUG: sync_state_changed - SilentUI: SyncStateChanged: 4
+(139758940456640) DEBUG: synchronization_thread - 8
+(139758940456640) DEBUG: sync_state_changed - SilentUI: SyncStateChanged: 6
+(139758940456640) DEBUG: synchronization_thread - Sync: get_note_updates_since rev 0
+(139758940456640) DEBUG: get_note_updates_since - get_note_updates_since xpath returned 0 nodes
+(139758940456640) DEBUG: get_note_updates_since - get_note_updates_since (0) returning: 0
+(139758940456640) DEBUG: synchronization_thread - Sync: 0 updates since rev 0
+(139758940456640) DEBUG: get_all_note_uuids - get_all_note_uuids has 3 notes
+(139758940456640) DEBUG: sync_state_changed - SilentUI: SyncStateChanged: 8
+(139758945219456) DEBUG: note_synchronized - note synchronized, Title: note4, Type: 0
+(139758940456640) DEBUG: synchronization_thread - Sync: Uploading 1 note updates
+(139758940456640) DEBUG: sync_state_changed - SilentUI: SyncStateChanged: 9
+(139758940456640) DEBUG: upload_notes - UploadNotes: notes.Count = 1
+(139758940456640) DEBUG: get_all_note_uuids - get_all_note_uuids has 3 notes
+(139758940456640) DEBUG: sync_state_changed - SilentUI: SyncStateChanged: 11
+(139758940456640) DEBUG: sync_state_changed - SilentUI: SyncStateChanged: 12
+(139758940456640) DEBUG: synchronization_thread - Sync: New revision: 1
+(139758940456640) DEBUG: sync_state_changed - SilentUI: SyncStateChanged: 0
+(139758940456640) DEBUG: synchronization_thread - synchronization_thread using SyncServiceAddin: test
+(139758940456640) DEBUG: sync_state_changed - SilentUI: SyncStateChanged: 3
+(139758940456640) DEBUG: sync_state_changed - SilentUI: SyncStateChanged: 4
+(139758940456640) DEBUG: synchronization_thread - 8
+(139758940456640) DEBUG: sync_state_changed - SilentUI: SyncStateChanged: 6
+(139758940456640) DEBUG: synchronization_thread - Sync: get_note_updates_since rev 0
+(139758940456640) DEBUG: get_note_updates_since - get_note_updates_since xpath returned 1 nodes
+(139758940456640) DEBUG: get_note_updates_since - get_note_updates_since (0) returning: 1
+(139758940456640) DEBUG: synchronization_thread - Sync: 1 updates since rev 0
+(139758940456640) DEBUG: sync_state_changed - SilentUI: SyncStateChanged: 7
+(139758940456640) DEBUG: note_synchronized - note synchronized, Title: note4, Type: 2
+(139758940456640) DEBUG: get_all_note_uuids - get_all_note_uuids has 4 notes
+(139758940456640) DEBUG: sync_state_changed - SilentUI: SyncStateChanged: 8
+(139758940456640) DEBUG: synchronization_thread - Sync: Uploading 0 note updates
+(139758940456640) DEBUG: get_all_note_uuids - get_all_note_uuids has 4 notes
+(139758940456640) DEBUG: sync_state_changed - SilentUI: SyncStateChanged: 11
+(139758940456640) DEBUG: sync_state_changed - SilentUI: SyncStateChanged: 12
+(139758940456640) DEBUG: synchronization_thread - Sync: New revision: 1
+(139758940456640) DEBUG: sync_state_changed - SilentUI: SyncStateChanged: 0
+(139758940456640) DEBUG: synchronization_thread - synchronization_thread using SyncServiceAddin: test
+(139758940456640) DEBUG: sync_state_changed - SilentUI: SyncStateChanged: 3
+(139758940456640) DEBUG: sync_state_changed - SilentUI: SyncStateChanged: 4
+(139758940456640) DEBUG: synchronization_thread - 8
+(139758940456640) DEBUG: sync_state_changed - SilentUI: SyncStateChanged: 6
+(139758940456640) DEBUG: synchronization_thread - Sync: get_note_updates_since rev -1
+(139758940456640) DEBUG: get_note_updates_since - get_note_updates_since (-1) returning: 0
+(139758940456640) DEBUG: synchronization_thread - Sync: 0 updates since rev -1
+(139758940456640) DEBUG: sync_state_changed - SilentUI: SyncStateChanged: 8
+(139758945219456) DEBUG: note_synchronized - note synchronized, Title: note3, Type: 0
+(139758945219456) DEBUG: note_synchronized - note synchronized, Title: note2, Type: 0
+(139758940456640) DEBUG: synchronization_thread - Sync: Uploading 3 note updates(139758945219456) DEBUG: note_synchronized - note synchronized, Title: note1, Type: 0
+
+(139758940456640) DEBUG: sync_state_changed - SilentUI: SyncStateChanged: 9
+(139758940456640) DEBUG: upload_notes - UploadNotes: notes.Count = 3
+(139758940456640) DEBUG: sync_state_changed - SilentUI: SyncStateChanged: 11
+(139758940456640) DEBUG: sync_state_changed - SilentUI: SyncStateChanged: 12
+(139758940456640) DEBUG: synchronization_thread - Sync: New revision: 0
+(139758940456640) DEBUG: sync_state_changed - SilentUI: SyncStateChanged: 0
+(139758940456640) DEBUG: synchronization_thread - synchronization_thread using SyncServiceAddin: test
+(139758940456640) DEBUG: sync_state_changed - SilentUI: SyncStateChanged: 3
+(139758940456640) DEBUG: sync_state_changed - SilentUI: SyncStateChanged: 4
+(139758940456640) DEBUG: synchronization_thread - 8
+(139758940456640) DEBUG: sync_state_changed - SilentUI: SyncStateChanged: 6
+(139758940456640) DEBUG: synchronization_thread - Sync: get_note_updates_since rev 0
+(139758940456640) DEBUG: get_note_updates_since - get_note_updates_since xpath returned 0 nodes
+(139758940456640) DEBUG: get_note_updates_since - get_note_updates_since (0) returning: 0
+(139758940456640) DEBUG: synchronization_thread - Sync: 0 updates since rev 0
+(139758940456640) DEBUG: get_all_note_uuids - get_all_note_uuids has 3 notes
+(139758940456640) DEBUG: sync_state_changed - SilentUI: SyncStateChanged: 8
+(139758940456640) DEBUG: synchronization_thread - Sync: Uploading 1 note updates
+(139758940456640) DEBUG: sync_state_changed - SilentUI: SyncStateChanged: 9
+(139758945219456) DEBUG: (139758940456640) DEBUG: upload_notes - UploadNotes: notes.Count = 1
+note_synchronized - note synchronized, Title: note2, Type: 1
+(139758940456640) DEBUG: get_all_note_uuids - get_all_note_uuids has 3 notes
+(139758940456640) DEBUG: sync_state_changed - SilentUI: SyncStateChanged: 11
+(139758940456640) DEBUG: sync_state_changed - SilentUI: SyncStateChanged: 12
+(139758940456640) DEBUG: synchronization_thread - Sync: New revision: 1
+(139758940456640) DEBUG: sync_state_changed - SilentUI: SyncStateChanged: 0
+(139758940456640) DEBUG: synchronization_thread - synchronization_thread using SyncServiceAddin: test
+(139758940456640) DEBUG: sync_state_changed - SilentUI: SyncStateChanged: 3
+(139758940456640) DEBUG: sync_state_changed - SilentUI: SyncStateChanged: 4
+(139758940456640) DEBUG: synchronization_thread - 8
+(139758940456640) DEBUG: sync_state_changed - SilentUI: SyncStateChanged: 6
+(139758940456640) DEBUG: synchronization_thread - Sync: get_note_updates_since rev -1
+(139758940456640) DEBUG: get_note_updates_since - get_note_updates_since xpath returned 3 nodes
+(139758940456640) DEBUG: get_note_updates_since - get_note_updates_since (-1) returning: 3
+(139758940456640) DEBUG: synchronization_thread - Sync: 3 updates since rev -1
+(139758940456640) DEBUG: sync_state_changed - SilentUI: SyncStateChanged: 7
+(139758940456640) DEBUG: note_synchronized - note synchronized, Title: note3, Type: 2
+(139758940456640) DEBUG: note_synchronized - note synchronized, Title: note1, Type: 2
+(139758940456640) DEBUG: note_synchronized - note synchronized, Title: note2, Type: 2
+(139758940456640) DEBUG: get_all_note_uuids - get_all_note_uuids has 3 notes
+(139758940456640) DEBUG: sync_state_changed - SilentUI: SyncStateChanged: 8
+(139758940456640) DEBUG: synchronization_thread - Sync: Uploading 0 note updates
+(139758940456640) DEBUG: get_all_note_uuids - get_all_note_uuids has 3 notes
+(139758940456640) DEBUG: sync_state_changed - SilentUI: SyncStateChanged: 11
+(139758940456640) DEBUG: sync_state_changed - SilentUI: SyncStateChanged: 12
+(139758940456640) DEBUG: synchronization_thread - Sync: New revision: 1
+(139758940456640) DEBUG: sync_state_changed - SilentUI: SyncStateChanged: 0
+(139758940456640) DEBUG: synchronization_thread - synchronization_thread using SyncServiceAddin: test
+(139758940456640) DEBUG: sync_state_changed - SilentUI: SyncStateChanged: 3
+(139758940456640) DEBUG: sync_state_changed - SilentUI: SyncStateChanged: 4
+(139758940456640) DEBUG: synchronization_thread - 8
+(139758940456640) DEBUG: sync_state_changed - SilentUI: SyncStateChanged: 6
+(139758940456640) DEBUG: synchronization_thread - Sync: get_note_updates_since rev -1
+(139758940456640) DEBUG: get_note_updates_since - get_note_updates_since (-1) returning: 0
+(139758940456640) DEBUG: synchronization_thread - Sync: 0 updates since rev -1
+(139758940456640) DEBUG: sync_state_changed - SilentUI: SyncStateChanged: 8
+(139758945219456) DEBUG: note_synchronized - note synchronized, Title: note3, Type: 0
+(139758945219456) DEBUG: note_synchronized - note synchronized, Title: note2, Type: 0
+(139758940456640) DEBUG: synchronization_thread - Sync: Uploading 3 note updates
+(139758940456640) DEBUG: sync_state_changed - SilentUI: SyncStateChanged: 9
+(139758945219456) DEBUG: note_synchronized - note synchronized, Title: note1, Type: 0
+(139758940456640) DEBUG: upload_notes - UploadNotes: notes.Count = 3
+(139758940456640) DEBUG: sync_state_changed - SilentUI: SyncStateChanged: 11
+(139758940456640) DEBUG: sync_state_changed - SilentUI: SyncStateChanged: 12
+(139758940456640) DEBUG: synchronization_thread - Sync: New revision: 0
+(139758940456640) DEBUG: sync_state_changed - SilentUI: SyncStateChanged: 0
+(139758940456640) DEBUG: synchronization_thread - synchronization_thread using SyncServiceAddin: test
+(139758940456640) DEBUG: sync_state_changed - SilentUI: SyncStateChanged: 3
+(139758940456640) DEBUG: sync_state_changed - SilentUI: SyncStateChanged: 4
+(139758940456640) DEBUG: synchronization_thread - 8
+(139758940456640) DEBUG: sync_state_changed - SilentUI: SyncStateChanged: 6
+(139758940456640) DEBUG: synchronization_thread - Sync: get_note_updates_since rev -1
+(139758940456640) DEBUG: get_note_updates_since - get_note_updates_since xpath returned 3 nodes
+(139758940456640) DEBUG: get_note_updates_since - get_note_updates_since (-1) returning: 3
+(139758940456640) DEBUG: synchronization_thread - Sync: 3 updates since rev -1
+(139758940456640) DEBUG: sync_state_changed - SilentUI: SyncStateChanged: 7
+(139758940456640) DEBUG: note_synchronized - note synchronized, Title: note3, Type: 2
+(139758940456640) DEBUG: note_synchronized - note synchronized, Title: note1, Type: 2
+(139758940456640) DEBUG: note_synchronized - note synchronized, Title: note2, Type: 2
+(139758940456640) DEBUG: get_all_note_uuids - get_all_note_uuids has 3 notes
+(139758940456640) DEBUG: sync_state_changed - SilentUI: SyncStateChanged: 8
+(139758940456640) DEBUG: synchronization_thread - Sync: Uploading 0 note updates
+(139758940456640) DEBUG: get_all_note_uuids - get_all_note_uuids has 3 notes
+(139758940456640) DEBUG: sync_state_changed - SilentUI: SyncStateChanged: 11
+(139758940456640) DEBUG: sync_state_changed - SilentUI: SyncStateChanged: 12
+(139758940456640) DEBUG: synchronization_thread - Sync: New revision: 0
+(139758940456640) DEBUG: sync_state_changed - SilentUI: SyncStateChanged: 0
+(139758940456640) DEBUG: synchronization_thread - synchronization_thread using SyncServiceAddin: test
+(139758940456640) DEBUG: sync_state_changed - SilentUI: SyncStateChanged: 3
+(139758940456640) DEBUG: sync_state_changed - SilentUI: SyncStateChanged: 4
+(139758940456640) DEBUG: synchronization_thread - 8
+(139758940456640) DEBUG: sync_state_changed - SilentUI: SyncStateChanged: 6
+(139758940456640) DEBUG: synchronization_thread - Sync: get_note_updates_since rev 0
+(139758940456640) DEBUG: get_note_updates_since - get_note_updates_since xpath returned 0 nodes
+(139758940456640) DEBUG: get_note_updates_since - get_note_updates_since (0) returning: 0
+(139758940456640) DEBUG: synchronization_thread - Sync: 0 updates since rev 0
+(139758940456640) DEBUG: get_all_note_uuids - get_all_note_uuids has 3 notes
+(139758940456640) DEBUG: sync_state_changed - SilentUI: SyncStateChanged: 8
+(139758940456640) DEBUG: synchronization_thread - Sync: Uploading 1 note updates
+(139758940456640) DEBUG: sync_state_changed - SilentUI: SyncStateChanged: 9
+(139758940456640) DEBUG: upload_notes - UploadNotes: notes.Count = 1
+(139758945219456) DEBUG: note_synchronized - note synchronized, Title: note2, Type: 1
+(139758940456640) DEBUG: get_all_note_uuids - get_all_note_uuids has 3 notes
+(139758940456640) DEBUG: sync_state_changed - SilentUI: SyncStateChanged: 11
+(139758940456640) DEBUG: sync_state_changed - SilentUI: SyncStateChanged: 12
+(139758940456640) DEBUG: synchronization_thread - Sync: New revision: 1
+(139758940456640) DEBUG: sync_state_changed - SilentUI: SyncStateChanged: 0
+(139758940456640) DEBUG: synchronization_thread - synchronization_thread using SyncServiceAddin: test
+(139758940456640) DEBUG: sync_state_changed - SilentUI: SyncStateChanged: 3
+(139758940456640) DEBUG: sync_state_changed - SilentUI: SyncStateChanged: 4
+(139758940456640) DEBUG: synchronization_thread - 8
+(139758940456640) DEBUG: sync_state_changed - SilentUI: SyncStateChanged: 6
+(139758940456640) DEBUG: synchronization_thread - Sync: get_note_updates_since rev 0
+(139758940456640) DEBUG: get_note_updates_since - get_note_updates_since xpath returned 1 nodes
+(139758940456640) DEBUG: get_note_updates_since - get_note_updates_since (0) returning: 1
+(139758940456640) DEBUG: synchronization_thread - Sync: 1 updates since rev 0
+(139758940456640) DEBUG: synchronization_thread - Sync: Early conflict detection for 'note2'
+(139758940456640) DEBUG: note_conflict_detected - note conflict detected, overwriting without a care
+(139758940456640) DEBUG: sync_state_changed - SilentUI: SyncStateChanged: 7
+(139758940456640) DEBUG: note_synchronized - note synchronized, Title: note2, Type: 3
+(139758940456640) DEBUG: get_all_note_uuids - get_all_note_uuids has 3 notes
+(139758940456640) DEBUG: sync_state_changed - SilentUI: SyncStateChanged: 8
+(139758940456640) DEBUG: synchronization_thread - Sync: Uploading 0 note updates
+(139758940456640) DEBUG: get_all_note_uuids - get_all_note_uuids has 3 notes
+(139758940456640) DEBUG: sync_state_changed - SilentUI: SyncStateChanged: 11
+(139758940456640) DEBUG: sync_state_changed - SilentUI: SyncStateChanged: 12
+(139758940456640) DEBUG: synchronization_thread - Sync: New revision: 1
+(139758940456640) DEBUG: sync_state_changed - SilentUI: SyncStateChanged: 0
+(139758940456640) DEBUG: synchronization_thread - synchronization_thread using SyncServiceAddin: test
+(139758940456640) DEBUG: sync_state_changed - SilentUI: SyncStateChanged: 3
+(139758940456640) DEBUG: sync_state_changed - SilentUI: SyncStateChanged: 4
+(139758940456640) DEBUG: synchronization_thread - 8
+(139758940456640) DEBUG: sync_state_changed - SilentUI: SyncStateChanged: 6
+(139758940456640) DEBUG: synchronization_thread - Sync: get_note_updates_since rev -1
+(139758940456640) DEBUG: get_note_updates_since - get_note_updates_since (-1) returning: 0
+(139758940456640) DEBUG: synchronization_thread - Sync: 0 updates since rev -1
+(139758940456640) DEBUG: sync_state_changed - SilentUI: SyncStateChanged: 8
+(139758945219456) DEBUG: note_synchronized - note synchronized, Title: note3, Type: 0
+(139758945219456) DEBUG: note_synchronized - note synchronized, Title: note2, Type: 0
+(139758940456640) DEBUG: synchronization_thread - Sync: Uploading 3 note updates
+(139758940456640) DEBUG: sync_state_changed - SilentUI: SyncStateChanged: 9
+(139758945219456) DEBUG: note_synchronized - note synchronized, Title: note1, Type: 0
+(139758940456640) DEBUG: upload_notes - UploadNotes: notes.Count = 3
+(139758940456640) DEBUG: sync_state_changed - SilentUI: SyncStateChanged: 11
+(139758940456640) DEBUG: sync_state_changed - SilentUI: SyncStateChanged: 12
+(139758940456640) DEBUG: synchronization_thread - Sync: New revision: 0
+(139758940456640) DEBUG: sync_state_changed - SilentUI: SyncStateChanged: 0
+(139758940456640) DEBUG: delete_note - Deleting note 'note2'.
+(139758940456640) DEBUG: synchronization_thread - synchronization_thread using SyncServiceAddin: test
+(139758940456640) DEBUG: sync_state_changed - SilentUI: SyncStateChanged: 3
+(139758940456640) DEBUG: sync_state_changed - SilentUI: SyncStateChanged: 4
+(139758940456640) DEBUG: synchronization_thread - 8
+(139758940456640) DEBUG: sync_state_changed - SilentUI: SyncStateChanged: 6
+(139758940456640) DEBUG: synchronization_thread - Sync: get_note_updates_since rev 0
+(139758940456640) DEBUG: get_note_updates_since - get_note_updates_since xpath returned 0 nodes
+(139758940456640) DEBUG: get_note_updates_since - get_note_updates_since (0) returning: 0
+(139758940456640) DEBUG: synchronization_thread - Sync: 0 updates since rev 0
+(139758940456640) DEBUG: get_all_note_uuids - get_all_note_uuids has 3 notes
+(139758940456640) DEBUG: sync_state_changed - SilentUI: SyncStateChanged: 8
+(139758940456640) DEBUG: synchronization_thread - Sync: Uploading 0 note updates
+(139758940456640) DEBUG: get_all_note_uuids - get_all_note_uuids has 3 notes
+(139758940456640) DEBUG: sync_state_changed - SilentUI: SyncStateChanged: 10
+(139758940456640) DEBUG: sync_state_changed - SilentUI: SyncStateChanged: 11
+(139758945219456) DEBUG: note_synchronized - note synchronized, Title: 8ced4a00-7453-4186-b3d2-ab173fbcff79, Type: 4
+(139758940456640) DEBUG: sync_state_changed - SilentUI: SyncStateChanged: 12
+(139758940456640) DEBUG: synchronization_thread - Sync: New revision: 1
+(139758940456640) DEBUG: sync_state_changed - SilentUI: SyncStateChanged: 0
+(139758940456640) DEBUG: synchronization_thread - synchronization_thread using SyncServiceAddin: test
+(139758940456640) DEBUG: sync_state_changed - SilentUI: SyncStateChanged: 3
+(139758940456640) DEBUG: sync_state_changed - SilentUI: SyncStateChanged: 4
+(139758940456640) DEBUG: synchronization_thread - 8
+(139758940456640) DEBUG: sync_state_changed - SilentUI: SyncStateChanged: 6
+(139758940456640) DEBUG: synchronization_thread - Sync: get_note_updates_since rev -1
+(139758940456640) DEBUG: get_note_updates_since - get_note_updates_since xpath returned 2 nodes
+(139758940456640) DEBUG: get_note_updates_since - get_note_updates_since (-1) returning: 2
+(139758940456640) DEBUG: synchronization_thread - Sync: 2 updates since rev -1
+(139758940456640) DEBUG: sync_state_changed - SilentUI: SyncStateChanged: 7
+(139758940456640) DEBUG: note_synchronized - note synchronized, Title: note3, Type: 2
+(139758940456640) DEBUG: note_synchronized - note synchronized, Title: note1, Type: 2
+(139758940456640) DEBUG: get_all_note_uuids - get_all_note_uuids has 2 notes
+(139758940456640) DEBUG: sync_state_changed - SilentUI: SyncStateChanged: 8
+(139758940456640) DEBUG: synchronization_thread - Sync: Uploading 0 note updates
+(139758940456640) DEBUG: get_all_note_uuids - get_all_note_uuids has 2 notes
+(139758940456640) DEBUG: sync_state_changed - SilentUI: SyncStateChanged: 11
+(139758940456640) DEBUG: sync_state_changed - SilentUI: SyncStateChanged: 12
+(139758940456640) DEBUG: synchronization_thread - Sync: New revision: 1
+(139758940456640) DEBUG: sync_state_changed - SilentUI: SyncStateChanged: 0
+(139758940456640) DEBUG: synchronization_thread - synchronization_thread using SyncServiceAddin: test
+(139758940456640) DEBUG: sync_state_changed - SilentUI: SyncStateChanged: 3
+(139758940456640) DEBUG: sync_state_changed - SilentUI: SyncStateChanged: 4
+(139758940456640) DEBUG: synchronization_thread - 8
+(139758940456640) DEBUG: sync_state_changed - SilentUI: SyncStateChanged: 6
+(139758940456640) DEBUG: synchronization_thread - Sync: get_note_updates_since rev -1
+(139758940456640) DEBUG: get_note_updates_since - get_note_updates_since (-1) returning: 0
+(139758940456640) DEBUG: synchronization_thread - Sync: 0 updates since rev -1
+(139758940456640) DEBUG: sync_state_changed - SilentUI: SyncStateChanged: 8
+(139758945219456) DEBUG: note_synchronized - note synchronized, Title: note2, Type: 0
+(139758945219456) DEBUG: note_synchronized - note synchronized, Title: note3, Type: 0
+(139758940456640) DEBUG: synchronization_thread - Sync: Uploading 3 note updates
+(139758940456640) DEBUG: sync_state_changed - SilentUI: SyncStateChanged: 9
+(139758945219456) DEBUG: note_synchronized - note synchronized, Title: note1, Type: 0
+(139758940456640) DEBUG: upload_notes - UploadNotes: notes.Count = 3
+(139758940456640) DEBUG: sync_state_changed - SilentUI: SyncStateChanged: 11
+(139758940456640) DEBUG: sync_state_changed - SilentUI: SyncStateChanged: 12
+(139758940456640) DEBUG: synchronization_thread - Sync: New revision: 0
+(139758940456640) DEBUG: sync_state_changed - SilentUI: SyncStateChanged: 0
+(139758940456640) DEBUG: synchronization_thread - synchronization_thread using SyncServiceAddin: test
+(139758940456640) DEBUG: sync_state_changed - SilentUI: SyncStateChanged: 3
+(139758940456640) DEBUG: sync_state_changed - SilentUI: SyncStateChanged: 4
+(139758940456640) DEBUG: synchronization_thread - 8
+(139758940456640) DEBUG: sync_state_changed - SilentUI: SyncStateChanged: 6
+(139758940456640) DEBUG: synchronization_thread - Sync: get_note_updates_since rev -1
+(139758940456640) DEBUG: get_note_updates_since - get_note_updates_since xpath returned 3 nodes
+(139758940456640) DEBUG: get_note_updates_since - get_note_updates_since (-1) returning: 3
+(139758940456640) DEBUG: synchronization_thread - Sync: 3 updates since rev -1
+(139758940456640) DEBUG: sync_state_changed - SilentUI: SyncStateChanged: 7
+(139758940456640) DEBUG: note_synchronized - note synchronized, Title: note2, Type: 2
+(139758940456640) DEBUG: note_synchronized - note synchronized, Title: note3, Type: 2
+(139758940456640) DEBUG: note_synchronized - note synchronized, Title: note1, Type: 2
+(139758940456640) DEBUG: get_all_note_uuids - get_all_note_uuids has 3 notes
+(139758940456640) DEBUG: sync_state_changed - SilentUI: SyncStateChanged: 8
+(139758940456640) DEBUG: synchronization_thread - Sync: Uploading 0 note updates
+(139758940456640) DEBUG: get_all_note_uuids - get_all_note_uuids has 3 notes
+(139758940456640) DEBUG: sync_state_changed - SilentUI: SyncStateChanged: 11
+(139758940456640) DEBUG: sync_state_changed - SilentUI: SyncStateChanged: 12
+(139758940456640) DEBUG: synchronization_thread - Sync: New revision: 0
+(139758940456640) DEBUG: sync_state_changed - SilentUI: SyncStateChanged: 0
+(139758940456640) DEBUG: synchronization_thread - synchronization_thread using SyncServiceAddin: test
+(139758940456640) DEBUG: sync_state_changed - SilentUI: SyncStateChanged: 3
+(139758940456640) DEBUG: sync_state_changed - SilentUI: SyncStateChanged: 4
+(139758940456640) DEBUG: synchronization_thread - 8
+(139758940456640) DEBUG: sync_state_changed - SilentUI: SyncStateChanged: 6
+(139758940456640) DEBUG: synchronization_thread - Sync: get_note_updates_since rev 0
+(139758940456640) DEBUG: get_note_updates_since - get_note_updates_since xpath returned 0 nodes
+(139758940456640) DEBUG: get_note_updates_since - get_note_updates_since (0) returning: 0
+(139758940456640) DEBUG: synchronization_thread - Sync: 0 updates since rev 0
+(139758940456640) DEBUG: get_all_note_uuids - get_all_note_uuids has 3 notes
+(139758940456640) DEBUG: sync_state_changed - SilentUI: SyncStateChanged: 8
+(139758940456640) DEBUG: synchronization_thread - Sync: Uploading 1 note updates
+(139758940456640) DEBUG: sync_state_changed - SilentUI: SyncStateChanged: 9
+(139758945219456) DEBUG: note_synchronized - note synchronized, Title: note2, Type: 1
+(139758940456640) DEBUG: upload_notes - UploadNotes: notes.Count = 1
+(139758940456640) DEBUG: get_all_note_uuids - get_all_note_uuids has 3 notes
+(139758940456640) DEBUG: sync_state_changed - SilentUI: SyncStateChanged: 11
+(139758940456640) DEBUG: sync_state_changed - SilentUI: SyncStateChanged: 12
+(139758940456640) DEBUG: synchronization_thread - Sync: New revision: 1
+(139758940456640) DEBUG: sync_state_changed - SilentUI: SyncStateChanged: 0
+(139758940456640) DEBUG: synchronization_thread - synchronization_thread using SyncServiceAddin: test
+(139758940456640) DEBUG: sync_state_changed - SilentUI: SyncStateChanged: 3
+(139758940456640) DEBUG: sync_state_changed - SilentUI: SyncStateChanged: 4
+(139758940456640) DEBUG: synchronization_thread - 8
+(139758940456640) DEBUG: sync_state_changed - SilentUI: SyncStateChanged: 6
+(139758940456640) DEBUG: synchronization_thread - Sync: get_note_updates_since rev 0
+(139758940456640) DEBUG: get_note_updates_since - get_note_updates_since xpath returned 1 nodes
+(139758940456640) DEBUG: get_note_updates_since - get_note_updates_since (0) returning: 1
+(139758940456640) DEBUG: synchronization_thread - Sync: 1 updates since rev 0
+(139758940456640) DEBUG: synchronization_thread - Sync: Early conflict detection for 'note2'
+(139758940456640) DEBUG: note_conflict_detected - note conflict detected, overwriting without a care
+(139758940456640) DEBUG: sync_state_changed - SilentUI: SyncStateChanged: 7
+(139758940456640) DEBUG: synchronization_thread - SyncManager: Content conflict in note update for note 'note2'
+(139758940456640) DEBUG: note_conflict_detected - note conflict detected, overwriting without a care
+(139758940456640) DEBUG: note_synchronized - note synchronized, Title: note2, Type: 3
+(139758940456640) DEBUG: get_all_note_uuids - get_all_note_uuids has 3 notes
+(139758940456640) DEBUG: sync_state_changed - SilentUI: SyncStateChanged: 8
+(139758940456640) DEBUG: synchronization_thread - Sync: Uploading 0 note updates
+(139758940456640) DEBUG: get_all_note_uuids - get_all_note_uuids has 3 notes
+(139758940456640) DEBUG: sync_state_changed - SilentUI: SyncStateChanged: 11
+(139758940456640) DEBUG: sync_state_changed - SilentUI: SyncStateChanged: 12
+(139758940456640) DEBUG: synchronization_thread - Sync: New revision: 1
+(139758940456640) DEBUG: sync_state_changed - SilentUI: SyncStateChanged: 0
+(139758940456640) DEBUG: synchronization_thread - synchronization_thread using SyncServiceAddin: test
+(139758940456640) DEBUG: sync_state_changed - SilentUI: SyncStateChanged: 3
+(139758940456640) DEBUG: sync_state_changed - SilentUI: SyncStateChanged: 4
+(139758940456640) DEBUG: synchronization_thread - 8
+(139758940456640) DEBUG: sync_state_changed - SilentUI: SyncStateChanged: 6
+(139758940456640) DEBUG: synchronization_thread - Sync: get_note_updates_since rev 1
+(139758940456640) DEBUG: get_note_updates_since - get_note_updates_since xpath returned 0 nodes
+(139758940456640) DEBUG: get_note_updates_since - get_note_updates_since (1) returning: 0
+(139758940456640) DEBUG: synchronization_thread - Sync: 0 updates since rev 1
+(139758940456640) DEBUG: get_all_note_uuids - get_all_note_uuids has 3 notes
+(139758940456640) DEBUG: sync_state_changed - SilentUI: SyncStateChanged: 8
+(139758940456640) DEBUG: synchronization_thread - Sync: Uploading 0 note updates
+(139758940456640) DEBUG: get_all_note_uuids - get_all_note_uuids has 3 notes
+(139758940456640) DEBUG: sync_state_changed - SilentUI: SyncStateChanged: 11
+(139758940456640) DEBUG: sync_state_changed - SilentUI: SyncStateChanged: 12
+(139758940456640) DEBUG: synchronization_thread - Sync: New revision: 1
+(139758940456640) DEBUG: sync_state_changed - SilentUI: SyncStateChanged: 0
+(139758940456640) DEBUG: synchronization_thread - synchronization_thread using SyncServiceAddin: test
+(139758940456640) DEBUG: sync_state_changed - SilentUI: SyncStateChanged: 3
+(139758940456640) DEBUG: sync_state_changed - SilentUI: SyncStateChanged: 4
+(139758940456640) DEBUG: synchronization_thread - 8
+(139758940456640) DEBUG: sync_state_changed - SilentUI: SyncStateChanged: 6
+(139758940456640) DEBUG: synchronization_thread - Sync: get_note_updates_since rev -1
+(139758940456640) DEBUG: get_note_updates_since - get_note_updates_since (-1) returning: 0
+(139758940456640) DEBUG: synchronization_thread - Sync: 0 updates since rev -1
+(139758940456640) DEBUG: sync_state_changed - SilentUI: SyncStateChanged: 8
+(139758945219456) DEBUG: note_synchronized - note synchronized, Title: note3, Type: 0
+(139758945219456) DEBUG: note_synchronized - note synchronized, Title: note2, Type: 0
+(139758940456640) DEBUG: synchronization_thread - Sync: Uploading 3 note updates
+(139758940456640) DEBUG: sync_state_changed - (139758945219456) DEBUG: note_synchronized - note synchronized, Title: note1, Type: 0
+SilentUI: SyncStateChanged: 9
+(139758940456640) DEBUG: upload_notes - UploadNotes: notes.Count = 3
+(139758940456640) DEBUG: sync_state_changed - SilentUI: SyncStateChanged: 11
+(139758940456640) DEBUG: sync_state_changed - SilentUI: SyncStateChanged: 12
+(139758940456640) DEBUG: synchronization_thread - Sync: New revision: 0
+(139758940456640) DEBUG: sync_state_changed - SilentUI: SyncStateChanged: 0
+(139758940456640) DEBUG: synchronization_thread - synchronization_thread using SyncServiceAddin: test
+(139758940456640) DEBUG: sync_state_changed - SilentUI: SyncStateChanged: 3
+(139758940456640) DEBUG: sync_state_changed - SilentUI: SyncStateChanged: 4
+(139758940456640) DEBUG: synchronization_thread - 8
+(139758940456640) DEBUG: sync_state_changed - SilentUI: SyncStateChanged: 6
+(139758940456640) DEBUG: synchronization_thread - Sync: get_note_updates_since rev -1
+(139758940456640) DEBUG: get_note_updates_since - get_note_updates_since xpath returned 3 nodes
+(139758940456640) DEBUG: get_note_updates_since - get_note_updates_since (-1) returning: 3
+(139758940456640) DEBUG: synchronization_thread - Sync: 3 updates since rev -1
+(139758940456640) DEBUG: sync_state_changed - SilentUI: SyncStateChanged: 7
+(139758940456640) DEBUG: note_synchronized - note synchronized, Title: note3, Type: 2
+(139758940456640) DEBUG: note_synchronized - note synchronized, Title: note2, Type: 2
+(139758940456640) DEBUG: note_synchronized - note synchronized, Title: note1, Type: 2
+(139758940456640) DEBUG: get_all_note_uuids - get_all_note_uuids has 3 notes
+(139758940456640) DEBUG: sync_state_changed - SilentUI: SyncStateChanged: 8
+(139758940456640) DEBUG: synchronization_thread - Sync: Uploading 0 note updates
+(139758940456640) DEBUG: get_all_note_uuids - get_all_note_uuids has 3 notes
+(139758940456640) DEBUG: sync_state_changed - SilentUI: SyncStateChanged: 11
+(139758940456640) DEBUG: sync_state_changed - SilentUI: SyncStateChanged: 12
+(139758940456640) DEBUG: synchronization_thread - Sync: New revision: 0
+(139758940456640) DEBUG: sync_state_changed - SilentUI: SyncStateChanged: 0
+(139758940456640) DEBUG: delete_note - Deleting note 'note2'.
+(139758940456640) DEBUG: synchronization_thread - synchronization_thread using SyncServiceAddin: test
+(139758940456640) DEBUG: sync_state_changed - SilentUI: SyncStateChanged: 3
+(139758940456640) DEBUG: sync_state_changed - SilentUI: SyncStateChanged: 4
+(139758940456640) DEBUG: synchronization_thread - 8
+(139758940456640) DEBUG: sync_state_changed - SilentUI: SyncStateChanged: 6
+(139758940456640) DEBUG: synchronization_thread - Sync: get_note_updates_since rev 0
+(139758940456640) DEBUG: get_note_updates_since - get_note_updates_since xpath returned 0 nodes
+(139758940456640) DEBUG: get_note_updates_since - get_note_updates_since (0) returning: 0
+(139758940456640) DEBUG: synchronization_thread - Sync: 0 updates since rev 0
+(139758940456640) DEBUG: get_all_note_uuids - get_all_note_uuids has 3 notes
+(139758940456640) DEBUG: sync_state_changed - SilentUI: SyncStateChanged: 8
+(139758940456640) DEBUG: synchronization_thread - Sync: Uploading 0 note updates
+(139758940456640) DEBUG: get_all_note_uuids - get_all_note_uuids has 3 notes
+(139758940456640) DEBUG: sync_state_changed - SilentUI: SyncStateChanged: 10
+(139758940456640) DEBUG: sync_state_changed - SilentUI: SyncStateChanged: 11
+(139758945219456) DEBUG: note_synchronized - note synchronized, Title: f2c5981c-6aaa-41a0-bad2-abb7a286c2c1, Type: 4
+(139758940456640) DEBUG: sync_state_changed - SilentUI: SyncStateChanged: 12
+(139758940456640) DEBUG: synchronization_thread - Sync: New revision: 1
+(139758940456640) DEBUG: sync_state_changed - SilentUI: SyncStateChanged: 0
+(139758940456640) DEBUG: synchronization_thread - synchronization_thread using SyncServiceAddin: test
+(139758940456640) DEBUG: sync_state_changed - SilentUI: SyncStateChanged: 3
+(139758940456640) DEBUG: sync_state_changed - SilentUI: SyncStateChanged: 4
+(139758940456640) DEBUG: synchronization_thread - 8
+(139758940456640) DEBUG: sync_state_changed - SilentUI: SyncStateChanged: 6
+(139758940456640) DEBUG: synchronization_thread - Sync: get_note_updates_since rev 0
+(139758940456640) DEBUG: get_note_updates_since - get_note_updates_since xpath returned 0 nodes
+(139758940456640) DEBUG: get_note_updates_since - get_note_updates_since (0) returning: 0
+(139758940456640) DEBUG: synchronization_thread - Sync: 0 updates since rev 0
+(139758940456640) DEBUG: get_all_note_uuids - get_all_note_uuids has 2 notes
+(139758940456640) DEBUG: note_synchronized - note synchronized, Title: note2, Type: 5
+(139758940456640) DEBUG: delete_note - Deleting note 'note2'.
+(139758940456640) DEBUG: sync_state_changed - SilentUI: SyncStateChanged: 8
+(139758940456640) DEBUG: synchronization_thread - Sync: Uploading 0 note updates
+(139758940456640) DEBUG: get_all_note_uuids - get_all_note_uuids has 2 notes
+(139758940456640) DEBUG: sync_state_changed - SilentUI: SyncStateChanged: 11
+(139758940456640) DEBUG: sync_state_changed - SilentUI: SyncStateChanged: 12
+(139758940456640) DEBUG: synchronization_thread - Sync: New revision: 1
+(139758940456640) DEBUG: sync_state_changed - SilentUI: SyncStateChanged: 0
+FAILURE: 1 out of 82 tests failed (1 failures).
+Test time: 0.14 seconds.
